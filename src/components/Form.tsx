@@ -46,7 +46,7 @@ const Form = () => {
                     <p>Join 60,000+ product managers receiving monthly updates on: </p>
                     <ul className="flex flex-col gap-3">
                         <div className="flex flex-row gap-2">
-                        <img src="/images/icon-list.svg" />
+                        <img src={window.location.origin + `/images/icon-list.svg`} />
                         <li>Product discovery and building what matters</li>
                         </div>
                         <div className="flex flex-row gap-2">
