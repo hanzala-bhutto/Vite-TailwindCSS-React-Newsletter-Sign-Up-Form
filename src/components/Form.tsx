@@ -50,7 +50,7 @@ const Form = () => {
                         <li>Product discovery and building what matters</li>
                         </div>
                         <div className="flex flex-row gap-2">
-                        <img src="/images/icon-list.svg" />
+                        <img src="./images/icon-list.svg" />
                         <li>Measuring to ensure updates are a success</li>
                         </div>
                         <div className="flex flex-row gap-2">
