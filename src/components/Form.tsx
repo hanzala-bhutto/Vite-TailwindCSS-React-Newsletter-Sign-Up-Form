@@ -46,7 +46,7 @@ const Form = () => {
                     <p>Join 60,000+ product managers receiving monthly updates on: </p>
                     <ul className="flex flex-col gap-3">
                         <div className="flex flex-row gap-2">
-                        <img src={window.location.origin + `/images/icon-list.svg`} />
+                        <img src="./images/icon-list.svg" />
                         <li>Product discovery and building what matters</li>
                         </div>
                         <div className="flex flex-row gap-2">
@@ -54,7 +54,7 @@ const Form = () => {
                         <li>Measuring to ensure updates are a success</li>
                         </div>
                         <div className="flex flex-row gap-2">
-                        <img src={`/images/icon-list.svg`} />
+                        <img src="./images/icon-list.svg" />
                         <li>And much more</li>
                         </div>
                     </ul>
@@ -71,7 +71,7 @@ const Form = () => {
                 </article>
 
                 <article className="h-80 lg:h-auto rounded-3xl">
-                    <img style={{height:"100%", width:'100%'}} className="object-cover rounded-b-3xl" src="/images/illustration-sign-up-desktop.svg" />
+                    <img style={{height:"100%", width:'100%'}} className="object-cover rounded-b-3xl" src="./images/illustration-sign-up-desktop.svg" />
                 </article>
             </section>
         </>
