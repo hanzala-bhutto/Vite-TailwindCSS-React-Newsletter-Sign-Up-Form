@@ -3,8 +3,8 @@ const Form = () => {
 
     return (
         <>
-            <section className="flex flex-row rounded-3xl bg-white gap-4 p-4">
-                <article className=" w-96 flex flex-col gap-8 py-20 mx-10">
+            <section className=" w-full flex flex-col-reverse lg:flex-row lg:rounded-3xl bg-white gap-4 lg:p-4">
+                <article className=" w-full lg:w-96 flex flex-col items-center gap-8 p-4 lg:py-20 lg:mx-10">
                     <h1 className="font-bold">Stay updated!</h1>
                     <p>Join 60,000+ product managers receiving monthly updates on: </p>
                     <ul className="flex flex-col gap-3">
@@ -30,8 +30,8 @@ const Form = () => {
                     </form>
                 </article>
 
-                <article className="rounded-3xl">
-                    <img src="/images/illustration-sign-up-desktop.svg" />
+                <article className="h-80 lg:h-auto rounded-3xl">
+                    <img style={{height:"100%", width:'100%'}} className="object-cover rounded-b-3xl" src="/images/illustration-sign-up-desktop.svg" />
                 </article>
             </section>
         </>
