@@ -54,7 +54,7 @@ const Form = () => {
                         <li>Measuring to ensure updates are a success</li>
                         </div>
                         <div className="flex flex-row gap-2">
-                        <img src="/images/icon-list.svg" />
+                        <img src={`/images/icon-list.svg`} />
                         <li>And much more</li>
                         </div>
                     </ul>
